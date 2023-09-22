@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Display Location and Words</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    
+    <p id="location"></p>
+    <p id="city"></p>
+    <div id="output"></div>
+    <p>If you need an ambulance to your location, click the button below:</p>
+    <!-- Ambulance Request Button -->
+    <button id="ambulanceButton">Ambulance to your place immediately</button>
+    <script>
+        // JavaScript code to handle the button click
+        document.getElementById("ambulanceButton").addEventListener("click", function() {
+            alert("An ambulance has been dispatched to your location.");
+            // You can add further actions here, such as calling an emergency number or providing more information.
+        });
+    </script>
+
+</body>
+</html>
